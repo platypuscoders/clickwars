@@ -19,6 +19,10 @@
     "chai-subset": "*"
   },
   "author": "Jeff Thompson <mythrndr@gmail.com>",
+  "contributors": [{
+    "name": "Bart Wyatt",
+    "email": "wanderingbort@yooser.com"
+  }],
   "scripts": {
     "make-docs": "./node_modules/.bin/jsdoc ./lib/*.js -t ./node_modules/ink-docstrap/template -c ./jsdoc.conf; docco lib/*.js",
     "clean-docs": "rm -rf docs; rm -rf out",
