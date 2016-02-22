@@ -1,0 +1,28 @@
+{
+  "name": "clickwars",
+  "version": "0.0.1",
+  "description": "A Battle of Wills in the Clicker Genre",
+  "dependencies": {
+    "express": "*",
+    "express-refresh": "*",
+    "fibers": "*",
+    "fibrous": "*",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {
+    "jsdoc": "*",
+    "ink-docstrap": "*",
+    "mocha": "*",
+    "mockery": "*",
+    "sinon": "*",
+    "chai": "*",
+    "chai-subset": "*"
+  },
+  "author": "Jeff Thompson <mythrndr@gmail.com>",
+  "scripts": {
+    "make-docs": "./node_modules/.bin/jsdoc ./lib/*.js -t ./node_modules/ink-docstrap/template -c ./jsdoc.conf; docco lib/*.js",
+    "clean-docs": "rm -rf docs; rm -rf out",
+    "test": "mocha --reporter spec",
+    "test-debug": "mocha --debug-brk --reporter spec"
+  }
+}

@@ -1,0 +1,97 @@
+#wrapper {
+	width: 1210px;
+	margin-left: 64px;
+
+}
+
+#header {
+	width: 1210px;
+	border: 1px dashed black;
+	height: 32px;
+}
+
+.left {
+	float: left;
+	width: 250px;
+}
+
+
+#board {
+	width: 1210px;
+	height: 600px;
+}
+
+#battlefield {
+	float: left;
+	width: 800px;
+	border: 2px solid black;
+}
+
+#battleview {
+	float:right;
+	width: 400px;
+	border: 1px dashed black;
+}
+
+#battlegraph {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 300px;
+}
+
+#footer {
+	clear: both;
+	width: 1210px;
+	border: 1px dashed black;
+}
+
+#villian {
+	border-width: medium;
+
+	width: 50%;
+	margin: 0 auto;
+}
+
+div#chatlog {
+    height: 120px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#chatlog .chatTime {
+    font-size: small;
+}
+
+#chatlog .chatName::after {
+    content: " says, ";
+}
+
+#chatlog .chatTime::before {
+    content: "[";
+}
+
+#chatlog .chatTime::after {
+    content: "]: ";
+}
+
+#steamLoginButton {
+  background-image: url(../content/sits_large_border.png);
+  background-size: 112px 52px;
+  width: 120px;
+  height: 57px;
+}
+
+#xboxLoginButton {
+  background-image: url(../content/xbox-one-logo-21.png);
+  background-size: 112px 52px;
+  width: 120px;
+  height: 57px;
+}
+
+#psnLoginButton {
+  background-image: url(../content/psn.jpg);
+  background-size: 112px 52px;
+  width: 120px;
+  height: 57px;
+}
